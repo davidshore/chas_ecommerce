@@ -64,13 +64,18 @@ Ni kan utgå från detta projekt:
 
 ### Steg
 
-1. **Setup monorepo**  
-   [code bash]  
-   yarn create turbo@latest ecommerce-monorepo
+1. **Setup monorepo**
 
-2. **Skapa Strapi-projekt**  
-   [code bash]  
+   ```bash
+   yarn create turbo@latest ecommerce-monorepo
+   ```
+
+2. **Skapa Strapi-projekt**
+
+   ```bash
    cd apps && npx create-strapi-app@latest cms --quickstart
+
+   ```
 
 3. **Modeller i Strapi**
 
@@ -80,9 +85,12 @@ Ni kan utgå från detta projekt:
 4. **Seed data**  
    Lägg till minst 10 produkter med bilder och beskrivningar.
 
-5. **Testa API**  
-   [code bash]  
+5. **Testa API**
+
+   ```bash
    curl http://localhost:1337/api/products
+
+   ```
 
 6. **Koppla frontend**
 
