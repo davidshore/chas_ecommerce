@@ -39,14 +39,16 @@ Efter tre veckor ska ni kunna:
 
 ## 🗂️ Projektstruktur (förslag)
 
+```text
 ecommerce-monorepo/
 ├── apps/
-│ ├── web/ # React / Next.js
-│ ├── mobile/ # React Native / Expo
-│ └── cms/ # Strapi
+│   ├── web/          # React / Next.js
+│   ├── mobile/       # React Native / Expo
+│   └── cms/          # Strapi
 ├── packages/
-│ └── shared/ # Typdefinitioner, hooks, utils
+│   └── shared/       # Typdefinitioner, hooks, utils
 └── README.md
+```
 
 ---
 
